@@ -21,7 +21,7 @@ a {
 }
 
 .photoHeaderPortada {
-  background-image: url("../../img/cover-rhcp.jpg");
+  background-image: url("../../img/cover-rhcp.webp");
   background-repeat:no-repeat;
   background-position: center;
   background-origin:padding-box;

@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="./styles/styles.css">
         <title>Miembros</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+        <link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <script async type="text/javascript" src="./scripts/curiosity.js"></script>
     </head>
@@ -15,10 +15,10 @@
         <header>
             <div class="titleLogoHeader">
                 <div>
-                <img loading="lazy" class="logo" srcset="./../img/logo-web-100.jpeg 100w,
-                            ./../img/logo-web-200.jpeg 200w"
+                <img loading="lazy" class="logo" srcset="./../img/logo-web-100.webp 100w,
+                            ./../img/logo-web-200.webp 200w"
                         sizes="(max-width: 600px) 100px, 200px"
-                        src="./../img/logo-web.jpeg" alt="logo">
+                        src="./../img/logo-web.webp" alt="logo">
                 </div>
                 <div>
                 <h1 class="titleWeb"><a href="index.html">Red Hot Chili Peppers</a></h1>
@@ -40,9 +40,9 @@
                 </p>
 
                 <picture>
-                    <source media="(max-width: 799px)" srcset="./../img/miembros-photo-144.png">
-                    <source media="(min-width: 800px)" srcset="./../img/miembros-photo-300.jpeg">
-                    <img loading="lazy" src="./../img/miembros-photo-300.jpeg" alt="The band">
+                    <source media="(max-width: 799px)" srcset="./../img/miembros-photo-144.webp">
+                    <source media="(min-width: 800px)" srcset="./../img/miembros-photo-300.webp">
+                    <img loading="lazy" src="./../img/miembros-photo-300.webp" alt="The band">
                 </picture>
 
                 <p>
@@ -57,9 +57,9 @@
                             vocalistas del Rock de todos los tiempos.
                         </li><br>
                         <figure>
-                            <img loading="lazy" class="detailphoto" src="../img/flea-anthony-287.jpg" alt="Flea and Anthony" 
-                            srcset="./../img/flea-anthony-287.jpg 287w,
-                                    ./../img/flea-anthony-574.jpg 574w"
+                            <img loading="lazy" class="detailphoto" src="../img/flea-anthony-287.webp" alt="Flea and Anthony" 
+                            srcset="./../img/flea-anthony-287.webp 287w,
+                                    ./../img/flea-anthony-574.webp 574w"
                             sizes="(max-width: 600px) 287px, 574px">
                             <figcaption>Photo by Wikipedia</figcaption>
                         </figure>
@@ -76,9 +76,9 @@
                         </li><br>
                         <figure>
                             <div>
-                                <img loading="lazy" class="detailphoto" src="../img/chad-john-400.png" alt="Chad and John"
-                                srcset="./../img/chad-john-400.png 400w,
-                                        ./../img/chad-john-800.png 800w"
+                                <img loading="lazy" class="detailphoto" src="../img/chad-john-400.webp" alt="Chad and John"
+                                srcset="./../img/chad-john-400.webp 400w,
+                                        ./../img/chad-john-800.webp 800w"
                                 sizes="(max-width: 600px) 400px, 800px">
                             </div>
                             
@@ -95,7 +95,8 @@
                 <div>
                     <figure class="videoFigure">
                       <iframe loading="lazy" width="570" height="345" name="Red Hot Chili Peppers - Californication [Official Music Video]"
-                          src="https://www.youtube.com/embed/YlUKcNNmywk"> 
+                          src="https://www.youtube.com/embed/YlUKcNNmywk"
+                          srcdoc="<a href=https://www.youtube.com/embed/YlUKcNNmywk><img src=https://img.youtube.com/vi/YlUKcNNmywk/hqdefault.jpg alt='Red Hot Chili Peppers - Californication [Official Music Video]'><span>▶</span></a>"> > 
                       </iframe>
                       <figcaption>Red Hot Chili Peppers - Californication [Official Music Video]</figcaption>
                     </figure>
@@ -112,7 +113,7 @@
               <p>2022 © Ana Sancho Callealta</p>
             </div>
             <div>
-              <img loading="lazy" class="logofooter" src="../img/logo-web-200.jpeg" alt="logo">
+              <img loading="lazy" class="logofooter" src="../img/logo-web-200.webp" alt="logo">
             </div>
             <div>
               <ul>
